@@ -5,25 +5,36 @@
 h2{
     color: white;
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    display: inline-block;
+    padding-top: 20px;
+    text-align: center;
 }
 
 h3{
     color: white;
+    font-family: 'Press Start 2P', cursive;
 }
 
 h4{
+    padding-top: 10px;
     color: white;
 }
 
 #texto{
+    padding-top: 5px;
     color: white;
 }
 
-span{
+
+
+p{
+    display: inline;
     color: white;
+    font-family: 'Press Start 2P', cursive;   
 }
 
 div{
-    background-color: #125577;
+    background-color: #124842;
 }
 

@@ -1,3 +1,43 @@
+.resume-section{
+    padding: 12px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #logoAP{
     width: 150px;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #124842;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+
+.social-icons .social-icon:hover {
+    background-color: #ea6445;
+}
+
+.dev-icons {
+    font-size: 3rem;
+    
+}
+
+.social-icons{
+    padding-right: 10px;
 }

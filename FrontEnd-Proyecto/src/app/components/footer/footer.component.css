@@ -1,0 +1,22 @@
+footer{
+    background-color: #121a07;
+    color: #ffffff;
+}
+
+#icono{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: #121a07;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 18px;
+    margin-right: 5px;
+    
+}
+
+#icono:hover{
+    background-color: #ea6445;
+}

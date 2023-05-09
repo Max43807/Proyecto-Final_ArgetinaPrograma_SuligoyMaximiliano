@@ -1,70 +1,21 @@
-section.resume-section {
+#banner{
+    width: 100%;
+    padding: 1px;
+    color: white;
+    background-image: url('../../../assets/banner.png');
     display: flex;
     align-items: center;
-    padding-left: 1rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(19, 19, 19, 0.795);
+    background-blend-mode: soft-light;
+    font-family: 'Press Start 2P', cursive;
+    margin: auto;
 }
 
-section.resume-section .resume-section-content {
-    width: 100%;
+h3{
+    color: #ea6445;
 }
 
-@media (min-width: 768px) {
-    section.resume-section {
-        min-height: 100vh;
-    }
-}
-
-@media (min-width: 992px) {
-    section.resume-section {
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-    }
-}
-
-#apellido{
-    color: #c96c12;
-}
-
-a{
-    color: #c96c12;
-}
-
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-    text-transform: uppercase;
-}
-
-h1,
-.h1 {
-    line-height: 1;
-    color: #124d73;
-}
-
-p.lead {
-    font-size: 1.15rem;
-    font-weight: 400;
-    color: #124d73;
-}
-
-.subheading {
-    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1.5rem;
-    color: #124d73;
-}

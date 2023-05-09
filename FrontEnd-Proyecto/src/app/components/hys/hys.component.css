@@ -1,0 +1,29 @@
+.row{
+    width: 100%;
+    padding: 1px;
+    color: white;
+    background-image: url('../../../assets/banner.png');
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(19, 19, 19, 0.795);
+    background-blend-mode: soft-light; 
+    margin: auto;
+    justify-content: center;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+h3{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 10px;
+}
+
+.text-center{
+    padding-top: 50px;
+}
+
